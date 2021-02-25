@@ -1,0 +1,56 @@
+body {
+  background-color: white;
+  color: #404040;
+  font-size: 11pt;
+  font-family: georgia, "Garamond";
+  background: url(resources/silverware.jpg);
+}
+h3 {
+  background-color: #f0f0f0;
+  color: #a4a400;
+  font-family: "Lucida Sans Unicode", "Helvetica", "Arial";
+  font-size: 18pt normal;
+}
+h1 {
+  background-color: #f0f0f0;
+  border-width: 100px;
+  color: #a4a400;
+  font-family: "Lucida Sans Unicode", "Helvetica", "Arial";
+  font-size: 22pt bold;
+  text-align: center;
+}
+a {
+  color: #a4a400;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+blockquote {
+  background-color: ;
+}
+#quote {
+  background-color: #f0c819c5;
+}
+ul {
+  list-style-image: url(resources/pie_bullet.png);
+}
